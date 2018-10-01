@@ -1,7 +1,7 @@
 # Saliency-Detection-in-360-Videos
 
 ### Introduction
-This repo contains the codes that used in paper **Saliency Detection in 360° Videos** by Ziheng Zhang, Yanyu Xu, Jingyi Yu and Shenghua Gao.
+This repo contains the codes that used in paper **Saliency Detection in 360° Videos** by **Ziheng Zhang, Yanyu Xu**, Jingyi Yu and Shenghua Gao.
 
 ### Requirements
   - Python 3.6 is required.
