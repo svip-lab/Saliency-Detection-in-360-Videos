@@ -41,3 +41,20 @@ This repo contains the code that used in paper **Saliency Detection in 360° Vid
   - [ ] Release training and testing code for saliency detection
   - [ ] Resolve the math unstability when calculating the kernel area in different θ location
   - [ ] Rewrite spherical convolution for torch 0.4+
+
+### License
+
+This project is released under the MIT License (refer to the LICENSE file for details).
+
+### Citing Faster R-CNN
+
+If you find this repo useful in your research, please consider citing:
+```
+    @InProceedings{Zhang_2018_ECCV,
+        author = {Zhang, Ziheng and Xu, Yanyu and Yu, Jingyi and Gao, Shenghua},
+        title = {Saliency Detection in 360° Videos},
+        booktitle = {The European Conference on Computer Vision (ECCV)},
+        month = {September},
+        year = {2018}
+    }
+```
