@@ -33,6 +33,9 @@ This repo contains the code that used in paper **Saliency Detection in 360$^\cir
 ### Usage
   We currently provide a sample model in `test.py`. The model and checkpoint that used in original paper will be released later.
   
+### Known issues
+  - The process of determining the kernel area for different $theta$ location is unstable, which will produce some `nan` values in output feature maps. However, this bug seems to have minor effects during training and testing.
+  
 ### TODO
   - [x] Release core functions and modules
   - [ ] Release training and testing code for saliency detection
