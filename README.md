@@ -12,24 +12,24 @@ This repo contains the codes that used in paper *Saliency Detection in 360° Vid
 ### File structure
 ```
 - test.py
-  purpose: Provide test model that uses spherical convolution.
+  purpose: Provides test model that uses spherical convolution.
 - sconv
   - functional
     - common.py
       Purpose: Contains some helper functions used in sphercal convolution.
     - sconv.py
-      Purpose: Provide the spherical convolution function for Pytorch.
+      Purpose: Provides the spherical convolution function for Pytorch.
     - spad.py
-      Purpose: Provide the spherical pooling function for Pytorch.
+      Purpose: Provides the spherical pooling function for Pytorch.
   - module
     - sconv.py
-      Purpose: Provide the spherical convolution module for Pytorch.
+      Purpose: Provides the spherical convolution module for Pytorch.
     - smse.py
-      Purpose: Provide the spherical mean-square loss module for Pytorch.
+      Purpose: Provides the spherical mean-square loss module for Pytorch.
     - spad.py
-      Purpose: Provide the spherical padding module for Pytorch.
+      Purpose: Provides the spherical padding module for Pytorch.
     - spool.py
-      Purpose: Provide the spherical pooling module for Pytorch.
+      Purpose: Provides the spherical pooling module for Pytorch.
 ```
 
 ### Usage
