@@ -33,7 +33,7 @@ This repo contains the code that used in paper **Saliency Detection in 360° Vid
 ```
 
 ### Usage
-  The spherical convolution is written in pure python and pytorch, so that no compiling proceedure is needed. One can just pull and run all codes in this repo. We currently provide a sample model in `test.py` that uses spherical convolution layers. The model and checkpoint that used in original paper will be released later.
+  The spherical convolution is written in pure python with pytorch, so that no compiling proceedure is needed. One can just pull and run all codes in this repo. We currently provide a sample model in `test.py` that uses spherical convolution layers. The model and checkpoint that used in original paper will be released later.
   
 ### Known issues
   - The process of determining the kernel area at different θ locations is unstable, which will cause output feature maps contain some `nan` values. However, this bug seems to have minor effects during training and testing. We will try to fix it later.
