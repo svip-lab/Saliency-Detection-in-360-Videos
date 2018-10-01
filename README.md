@@ -46,7 +46,7 @@ This repo contains the code that used in paper **Saliency Detection in 360° Vid
 
 This project is released under the MIT License (refer to the LICENSE file for details).
 
-### Citing Faster R-CNN
+### Citing
 
 If you find this repo useful in your research, please consider citing:
 ```
