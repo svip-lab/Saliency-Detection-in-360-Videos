@@ -34,12 +34,12 @@ This repo contains the code that used in paper **Saliency Detection in 360° Vid
   We currently provide a sample model in `test.py`. The model and checkpoint that used in original paper will be released later.
   
 ### Known issues
-  - The process of determining the kernel area at different θ location is unstable, which will cause output feature maps contain some `nan` values. However, this bug seems to have minor effects during training and testing. We will try to fix it later.
+  - The process of determining the kernel area at different θ locations is unstable, which will cause output feature maps contain some `nan` values. However, this bug seems to have minor effects during training and testing. We will try to fix it later.
   
 ### TODO
   - [x] Release core functions and modules
   - [ ] Release training and testing code for saliency detection
-  - [ ] Resolve the math unstability when calculating the kernel area at different θ location
+  - [ ] Resolve the math unstability when calculating the kernel area at different θ locations
   - [ ] Rewrite spherical convolution for torch 0.4+
 
 ### License
