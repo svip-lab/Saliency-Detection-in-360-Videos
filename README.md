@@ -4,7 +4,7 @@
 This repo contains the code that used in paper **Saliency Detection in 360° Videos** by Ziheng Zhang, Yanyu Xu, Jingyi Yu and Shenghua Gao.
 
 ### Requirements
-  - 0.3.0 <= Pytorch <= 0.3.1 
+  - 0.3.0 <= pytorch <= 0.3.1 
   - numpy >= 1.13
   
 ### File structure
