@@ -49,7 +49,7 @@ This repo contains the codes that used in paper *Saliency Detection in 360° Vid
   
 ### TODO
   - [x] Release core functions and modules
-  - [x] Release training and code for saliency detection
+  - [x] Release training code for saliency detection
   - [ ] Resolve the math unstability when calculating the kernel area at different θ locations
   - [ ] Rewrite spherical convolution for torch 0.4+
 
