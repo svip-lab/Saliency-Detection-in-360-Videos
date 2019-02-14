@@ -15,7 +15,13 @@ This repo contains the codes that used in paper *Saliency Detection in 360° Vid
 ### File structure
 ```
 - test.py
-  purpose: Provides test model that uses spherical convolution.
+  purpose: Provides a simple test model that uses spherical convolution.
+- spherical_unet.py
+  purpose: Provides the implementation of Spherical U-Net that we used in our paper.
+- train.py
+  purpose: Provides training codes for Spherical U-Net.
+- data.py
+  purpose: Provides the dataloader for our dataset to train Spherical U-Net.
 - sconv
   - functional
     - common.py
@@ -43,7 +49,7 @@ This repo contains the codes that used in paper *Saliency Detection in 360° Vid
   
 ### TODO
   - [x] Release core functions and modules
-  - [ ] Release training and testing code for saliency detection
+  - [x] Release training and code for saliency detection
   - [ ] Resolve the math unstability when calculating the kernel area at different θ locations
   - [ ] Rewrite spherical convolution for torch 0.4+
 
