@@ -42,12 +42,12 @@ This repo contains the codes that used in paper *Saliency Detection in 360° Vid
 ```
 
 ### Usage
-  The spherical convolution is written in pure python with pytorch, so that no compiling proceedure is needed. One can just pull and run all the codes in this repo. We currently provide a sample model in `test.py` that uses spherical convolution layers. The model and checkpoint that used in original paper will be released later.
+  The spherical convolution is written in pure python with pytorch, so that no compiling proceedure is needed. One can just pull and run all the codes in this repo. We currently provide a sample model in `test.py` that uses spherical convolution layers. 
   
 ### Known issues
   - The process of determining the kernel area at different θ locations is unstable, which will cause output feature maps contain some `nan` values. However, this bug seems to have minor effects during training and testing. We will try to fix it later.
   
-### Dataset
+### Dataset & Pre-trained Model
   You can download our dataset from [Baidu Pan](https://pan.baidu.com/s/1V9LmYzYJDX34LKa4zafK2g) (code:2f4e) or [OneDrive](https://1drv.ms/u/s!Anr-c63X92MsgYF0HNqjCb1HCZSr3w?e=eQnDPB), which consists of 104 videos. There are 12 zip files, and train/test index. After downloading these zips, unzip them together. There are 104 files and 'vinfo.pkl'. Each file consists of *.jpg (RGB image) and *.npy (ground truth heatmaps). The 'pkl' file consists of the original groud truth gaze points of the observers. 
   
 ### TODO
